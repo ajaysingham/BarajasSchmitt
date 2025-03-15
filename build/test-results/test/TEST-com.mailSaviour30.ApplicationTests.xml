@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.mailSaviour30.ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-15T09:35:07" hostname="DESKTOP-VKF2EI6" time="0.473">
+<testsuite name="com.mailSaviour30.ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-15T09:54:46" hostname="DESKTOP-VKF2EI6" time="0.504">
   <properties/>
-  <testcase name="contextLoads()" classname="com.mailSaviour30.ApplicationTests" time="0.473"/>
-  <system-out><![CDATA[15:04:52.606 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mailSaviour30.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-15:04:52.748 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.mailSaviour30.Application for test class com.mailSaviour30.ApplicationTests
+  <testcase name="contextLoads()" classname="com.mailSaviour30.ApplicationTests" time="0.504"/>
+  <system-out><![CDATA[15:24:32.954 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mailSaviour30.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:24:33.090 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.mailSaviour30.Application for test class com.mailSaviour30.ApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,19 +14,19 @@
 
  :: Spring Boot ::                (v3.4.1)
 
-2025-03-15T15:04:53.276+05:30  INFO 16396 --- [demo] [    Test worker] com.mailSaviour30.ApplicationTests       : Starting ApplicationTests using Java 17.0.12 with PID 16396 (started by LHCP in D:\Mail SEnder\Github\BarajasSchmitt)
-2025-03-15T15:04:53.278+05:30  INFO 16396 --- [demo] [    Test worker] com.mailSaviour30.ApplicationTests       : No active profile set, falling back to 1 default profile: "default"
-2025-03-15T15:04:54.207+05:30  INFO 16396 --- [demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-15T15:04:54.305+05:30  INFO 16396 --- [demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 5 JPA repository interfaces.
-2025-03-15T15:04:54.909+05:30  INFO 16396 --- [demo] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-15T15:04:54.997+05:30  INFO 16396 --- [demo] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-03-15T15:04:55.053+05:30  INFO 16396 --- [demo] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-15T15:04:55.410+05:30  INFO 16396 --- [demo] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-15T15:04:55.440+05:30  INFO 16396 --- [demo] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-15T15:04:58.351+05:30  INFO 16396 --- [demo] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48692405
-2025-03-15T15:04:58.357+05:30  INFO 16396 --- [demo] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-15T15:04:59.996+05:30  WARN 16396 --- [demo] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-03-15T15:05:00.573+05:30  INFO 16396 --- [demo] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-03-15T15:24:33.612+05:30  INFO 8436 --- [demo] [    Test worker] com.mailSaviour30.ApplicationTests       : Starting ApplicationTests using Java 17.0.12 with PID 8436 (started by LHCP in D:\Mail SEnder\Github\BarajasSchmitt)
+2025-03-15T15:24:33.615+05:30  INFO 8436 --- [demo] [    Test worker] com.mailSaviour30.ApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-03-15T15:24:34.576+05:30  INFO 8436 --- [demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-15T15:24:34.697+05:30  INFO 8436 --- [demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 5 JPA repository interfaces.
+2025-03-15T15:24:35.338+05:30  INFO 8436 --- [demo] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-15T15:24:35.405+05:30  INFO 8436 --- [demo] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-03-15T15:24:35.469+05:30  INFO 8436 --- [demo] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-15T15:24:35.835+05:30  INFO 8436 --- [demo] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-15T15:24:35.876+05:30  INFO 8436 --- [demo] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-15T15:24:39.424+05:30  INFO 8436 --- [demo] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18463720
+2025-03-15T15:24:39.424+05:30  INFO 8436 --- [demo] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-15T15:24:39.780+05:30  WARN 8436 --- [demo] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-15T15:24:40.407+05:30  INFO 8436 --- [demo] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.3
@@ -34,18 +34,18 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-03-15T15:05:01.743+05:30  INFO 16396 --- [demo] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-15T15:05:05.889+05:30  INFO 16396 --- [demo] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-15T15:05:06.375+05:30  WARN 16396 --- [demo] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-15T15:05:06.407+05:30  WARN 16396 --- [demo] [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+2025-03-15T15:24:41.734+05:30  INFO 8436 --- [demo] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-15T15:24:45.026+05:30  INFO 8436 --- [demo] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-15T15:24:45.545+05:30  WARN 8436 --- [demo] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-15T15:24:45.584+05:30  WARN 8436 --- [demo] [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 0e3330c8-3bb8-4602-b63e-ece34050a42e
+Using generated security password: c7a1d1dc-66de-45f6-811e-d5222f9d2e95
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2025-03-15T15:05:06.441+05:30  INFO 16396 --- [demo] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-03-15T15:05:06.811+05:30 DEBUG 16396 --- [demo] [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure Or [Mvc [pattern='/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, ExceptionTranslationFilter, AuthorizationFilter
-2025-03-15T15:05:07.270+05:30  INFO 16396 --- [demo] [    Test worker] com.mailSaviour30.ApplicationTests       : Started ApplicationTests in 14.329 seconds (process running for 15.763)
+2025-03-15T15:24:45.588+05:30  INFO 8436 --- [demo] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-03-15T15:24:45.974+05:30 DEBUG 8436 --- [demo] [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure Or [Mvc [pattern='/**']] with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-03-15T15:24:46.429+05:30  INFO 8436 --- [demo] [    Test worker] com.mailSaviour30.ApplicationTests       : Started ApplicationTests in 13.146 seconds (process running for 14.559)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
